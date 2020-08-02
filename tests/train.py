@@ -1,5 +1,7 @@
 import torch
 import torch.nn as nn
+import pretraining
+import finetune
 from pretraining import BertPreTrain
 from finetune import BertClassification
 
